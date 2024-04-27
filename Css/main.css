@@ -1,0 +1,163 @@
+/* Global Styles */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imgs/hero-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.aboutline,
+.blue {
+  height: 3px;
+  width: 10%;
+  background-color: blue;
+}
+
+.blue {
+  width: 3%;
+}
+
+.txt2 {
+  font-size: 0.8rem;
+}
+
+/* Navbar */
+
+.navbar {
+      background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+/* Section  */
+#About,
+#Services,
+#PORTFOLIO,
+#blog,
+#contact {
+  background-color: #f5f5f5;
+}
+
+.stats {
+  background-image: linear-gradient(
+      rgba(13, 110, 253, 0.6),
+      rgba(13, 110, 253, 0.6)
+    ),
+    url(../imgs/counters-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#testimonials {
+  background-image: linear-gradient(
+      rgba(13, 110, 253, 0.6),
+      rgba(13, 110, 253, 0.6)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-attachment: fixed;
+}
+
+/* Service  */
+.ser-icon {
+  transition: all 500ms ease;
+  font-size: 32px;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+
+/* Stat  */
+.stat-icon {
+  font-size: 25px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0 0 0 10px white;
+}
+
+/* Portifolio */
+
+.prof-card {
+  overflow: hidden;
+  transition: 0.5s transform;
+}
+.prof-img {
+  overflow: hidden;
+}
+
+.prof-card img {
+  transition: 0.5s transform;
+}
+
+.prof-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Testimonial  */
+.testimonials-img {
+  width: 150px;
+  height: 150px;
+}
+
+#testimonials .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Blog  */
+.blog-label {
+  top: -15px;
+  font-size: 0.7rem;
+}
+
+.blog-avatar {
+  width: 35px;
+  height: 35px;
+}
+
+.blog-author {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#blog a:hover {
+  color: var(--primaryColor);
+}
+
+/* Contact */
+
+#contact {
+  background-image: linear-gradient(
+      rgba(13, 110, 253, 0.6),
+      rgba(13, 110, 253, 0.6)
+    ),
+    url(../imgs/overlay-bg.jpg);
+  background-attachment: fixed;
+}
+
+.social-links .icon {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 3px solid #0078ff;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: #0062d3;
+}
+
+.ser-item:hover .ser-icon,
+.social-links .icon:hover {
+  tex-color: white;
+  background-color: #65aeff;
+  border: 7px solid #cde1f8;
+}
